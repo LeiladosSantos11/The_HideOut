@@ -1,0 +1,31 @@
+#nav {
+  background-color: crimson;
+}
+header {
+  background-color: blueviolet;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: var(--main-darkblue) !important;
+  font-family: "Apercu", sans-serif, Tahoma, Verdana;
+}
