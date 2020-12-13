@@ -113,8 +113,6 @@ header {
 }
 
 /*.carousel-item */
-.section-two {
-}
 
 .link-booking {
   padding: 4rem;
@@ -122,16 +120,39 @@ header {
   color: var(--white);
 }
 
+/* About Session */
+
+.about-section {
+  padding: 6em 0em;
+}
+
+.booking-section {
+  background-color: var(--dark);
+  margin: 0 auto !important;
+  padding: 6rem 2px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+}
+
 /* Section 3 */
 
 .section-three {
   margin: 0 auto !important;
   padding: 6rem 2px;
-  color: var(--gray-dark);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  font-weight: 500;
 }
 
 .subtext {
   font-size: 1.5rem;
+  font-weight: 600;
   color: var(--pink);
   margin: 0;
 }
@@ -166,10 +187,6 @@ img.photos.hover-scale {
 
 img.hover-scale:hover {
   transform: scale(1.05);
-}
-
-.about {
-  padding: 1em 3em;
 }
 
 .footer {
