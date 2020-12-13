@@ -89,15 +89,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
 }
 
 #img {
   margin: 0;
   padding: 0;
-  /*height: 70vh;
- margin-top: 3.7em;*/
 }
 
 .carousel-text {
@@ -116,20 +114,19 @@ header {
 
 /*.carousel-item */
 .section-two {
-  background-color: var(--dark);
 }
 
-.content-two {
+.link-booking {
   padding: 4rem;
+  background-color: var(--dark);
+  color: var(--white);
 }
 
 /* Section 3 */
 
 .section-three {
   margin: 0 auto !important;
-
   padding: 6rem 2px;
-  text-align: left;
   color: var(--gray-dark);
 }
 
@@ -139,8 +136,10 @@ header {
   margin: 0;
 }
 
-h2 {
-  color: var(--gray-dark);
+.title-img {
+  color: var(--blue);
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .photo-container {
@@ -150,23 +149,35 @@ h2 {
 }
 
 img.photos.hover-scale {
+  background-color: transparent;
   margin-top: 2em;
   border-style: none;
   box-sizing: border-box;
-
   cursor: pointer;
   font-family: Poppins, sans-serif;
-  height: auto;
-
+  left: 0;
   list-style: outside none none;
-  max-width: 50%;
-
+  max-width: 100%;
   transition: all 0.2s ease-in-out;
-  vertical-align: middle;
-  width: 225px;
-  height: 225px;
+  display: inline-block;
+  width: 19%;
+  height: 55%;
 }
 
 img.hover-scale:hover {
   transform: scale(1.05);
+}
+
+.about {
+  padding: 1em 3em;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  color: var(--white);
+  height: 10em;
+}
+
+.footer-content {
+  padding: 1em 3em;
 }
