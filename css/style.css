@@ -99,16 +99,17 @@ header {
 }
 
 .carousel-text {
+  margin: 0;
   position: absolute;
   font-weight: 700;
   color: white;
   left: 50%;
-  top: 40%;
+  top: 30%;
   transform: translate(-50%, -50%);
 }
 
 .carousel-item h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: var(--white);
 }
 
@@ -124,6 +125,16 @@ header {
 
 .about-section {
   padding: 6em 0em;
+  background-color: #1f1f1f;
+  color: var(--white);
+}
+.title-about {
+  padding-bottom: 1em;
+  font-size: 3rem;
+}
+.text-about {
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .booking-section {
@@ -154,7 +165,7 @@ header {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--pink);
-  margin: 0;
+  margin-top: 0.6em;
 }
 
 .title-img {
